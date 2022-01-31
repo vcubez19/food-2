@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Food</h1>
+    </header>
+    <main>
+
+        <h2>Name</h2>
+        <br>
+        <br>
+        <input type="text" placeholder="Name" id="name">
+
+
+        <div class="section">
+            <h2>Sandwich</h2><p class="price">$5.00 each</p>
+            <br>
+            <br>
+            <input type="checkbox" name="ham-cheese" id="ham-cheese">
+            <label for="ham-cheese">Ham and cheese</label>
+            <input type="number" placeholder="Count" id="ham-cheese-count" value="0">
+            <br>
+            <br>
+            <input type="checkbox" name="turkey-provolone" id="turkey-provolone">
+            <label for="turkey-provolone">Turkey and Provolone</label>
+            <input type="number" placeholder="Count" id="turkey-provolone-count" value="0">
+            <br>
+            <br>
+            <input type="checkbox" name="salami-swiss" id="salami-swiss">
+            <label for="salami-swiss">Salami and swiss</label>
+            <input type="number" placeholder="Count" id="salami-swiss-count" value="0">
+            <br>
+            <br>
+            <input type="checkbox" name="avocado-ham" id="avocado-ham">
+            <label for="avocado-ham">Avocado and ham</label>
+            <input type="number" placeholder="Count" id="avocado-ham-count" value="0">
+            <br>
+            <br>
+            <input type="checkbox" name="egg-spinach" id="egg-spinach">
+            <label for="egg-spinach">Egg and spinach</label>
+            <input type="number" placeholder="Count" id="egg-spinach-count" value="0">
+        </div>
+        <div class="section">
+            <h2>Drink</h2><p class="price">$3.00 each</p>
+            <br>
+            <br>
+            <input type="checkbox" name="sprite" id="sprite">
+            <label for="sprite">Sprite</label>
+            <input type="number" placeholder="Count" id="sprite-count" value="0">
+            <br>
+            <br>
+            <input type="checkbox" name="lemonade" id="lemonade">
+            <label for="lemonade">Lemonade</label>
+            <input type="number" placeholder="Count" id="lemonade-count" value="0">
+            <br>
+            <br>
+            <input type="checkbox" name="sweet-tea" id="sweet-tea">
+            <label for="sweet-tea">Sweet tea</label>
+            <input type="number" placeholder="Count" id="sweet-tea-count" value="0">
+            <br>
+            <br>
+            <input type="checkbox" name="powerade" id="powerade">
+            <label for="powerade">Powerade</label>
+            <input type="number" placeholder="Count" id="powerade-count" value="0">
+            <br>
+            <br>
+            <input type="checkbox" name="unsweet-tea" id="unsweet-tea">
+            <label for="unsweet-tea">Unsweet tea</label>
+            <input type="number" placeholder="Count" id="unsweet-tea-count" value="0">
+            <br>
+            <br>
+        </div>
+        <div class="section">
+            <h2>Dessert</h2><p class="price">$4.00 each</p>
+            <br>
+            <br>
+            <input type="checkbox" name="cheescake" id="cheescake">
+            <label for="cheescake">Cheescake</label>
+            <input type="number" placeholder="Count" id="cheescake-count" value="0">
+            <br>
+            <br>
+            <input type="checkbox" name="pumpkin-pie" id="pumpkin-pie">
+            <label for="pumpkin-pie">Pumpkin pie</label>
+            <input type="number" placeholder="Count" id="pumpkin-pie-count" value="0">
+            <br>
+            <br>
+            <input type="checkbox" name="cookie" id="cookie">
+            <label for="cookie">Cookie</label>
+            <input type="number" placeholder="Count" id="cookie-count" value="0">
+            <br>
+            <br>
+            <input type="checkbox" name="donut" id="donut">
+            <label for="donut">Donut</label>
+            <input type="number" placeholder="Count" id="donut-count" value="0">
+            <br>
+            <br>
+            <input type="checkbox" name="candy" id="candy">
+            <label for="candy">Candy</label>
+            <input type="number" placeholder="Count" id="candy-count" value="0">
+            <br>
+            <br>
+        </div>
+        <div class="section">
+            <button id="calculate-order-button">Calculate order</button>
+            <br>
+            <br>
+            <p id="order-for">Order for</p>
+            <br>
+            <br>
+            <p id="total-cost">Total cost:</p>
+            <br>
+            <br>
+            <p id="summary"></p>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
+
+
